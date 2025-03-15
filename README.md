@@ -30,7 +30,6 @@ A backend system for managing tasks, where Supervisors create tasks and the syst
    DATABASE_URL=your_database_url
    JWT_SECRET=your_jwt_secret
    PORT=5000
-   NODE_ENV=development
 4. Run the server
    ```bash
    npm start
