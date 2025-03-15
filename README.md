@@ -21,7 +21,7 @@ A backend system for managing tasks, where Supervisors create tasks and the syst
 ## Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/job-scheduler.git
+   git clone https://github.com/dave-teg/job-scheduler.git
 2. Install dependencies:
    ```bash
    npm install
