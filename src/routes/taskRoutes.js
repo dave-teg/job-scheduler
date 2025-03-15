@@ -17,7 +17,7 @@ const router = express.Router();
 router.post('/tasks', authenticateToken, addTask); //create new task
 router.post('/tasks/assign', authenticateToken, assignUnassignedTasks); // assign unassigned tasks
 router.put('/tasks/complete', authenticateToken, completeTaskController) //mark task as complete
-router.get('/tasks/assigned', authenticateToken, getAssignedTasks)
+router.get('/tasks/assigned', authenticateToken, getAssignedTasks) // get assigned tasks for agent
 router.get('/tasks/created', authenticateToken, getTasksBySupervisor); // Get tasks created by Supervisor
 
 export default router;
