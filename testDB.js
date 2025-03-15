@@ -7,7 +7,7 @@ async function checkTables() {
     );
     console.log("Tables:", res.rows);
   } catch (err) {
-    console.error("❌ Error fetching tables:", err);
+    console.error(" Error fetching tables:", err);
   } finally {
     pool.end();
   }
