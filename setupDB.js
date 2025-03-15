@@ -19,9 +19,6 @@ export async function setupDatabase() {
 
   } catch (err) {
     console.error("Error setting up database:", err);
-
-  } finally {
-    pool.end(); // Close the connection
   }
 }
 
